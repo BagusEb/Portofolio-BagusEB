@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bagus Eka - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading" id="loading">
+    <div class="loader"></div>
+  </div>
+
+  <div class="bg-elements">
+    <div class="bg-pattern"></div>
+    <div class="floating-shapes">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+  </div>
+  
+  <header class="header" id="header">
+      <div class="nav-container">
+          <a href="#home" class="nav-logo">Bagus Eka Bagaskara</a>
+          <nav class="nav-links">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+          </nav>
+          <button class="mobile-menu-toggle" id="mobileMenuToggle">
+              <i class="fas fa-bars"></i>
+          </button>
+      </div>
+  </header>
+
+  <main>
+ <section id="home" class="section">
+  <div class="section-container">
+
+    <div class="text-section">
+      <div class="greeting"> Hello, Everyone! 👋</div>
+      <h1>I'm Bagus E. B.</h1>
+      <div class="typing-text" id="typingText">
+        <span id="typedText"></span>
+        <span class="typing-cursor">|</span>
+      </div>
+      <p class="description">
+        I craft beautiful and functional web experiences with modern technologies. Passionate about clean code, elegant design, and creating digital solutions that make a difference.
+      </p>
+      <div class="social-icons">
+        <a href="https://wa.me/+6281319879636" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com/bagsssss.22" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://tiktok.com/@bagsssss22" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://linkedin.com/in/bagus-eka-bagaskara" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="cta-buttons-container">
+  <a href="#projects" class="cta-button">
+    <span>View My Work</span>
+    <i class="fas fa-arrow-right"></i>
+  </a>
+  <a href="documents/Resume_BagusEB.pdf" class="cta-button-secondary" download>
+    <i class="fas fa-download"></i>
+    <span>Download CV</span>
+  </a>
+</div>
+    </div> <div class="image-section">
+      <div class="image-container">
+        <div class="gradient-border"></div>
+        <div class="image-wrapper">
+          <img src="images/IMG_20250724_020508.jpg" alt="Foto Profil Anda">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <section id="about" class="section">
+      <div class="section-container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+             <p>
+          Hi, I'm Bagus, an IoT Developer passionate about bridging the gap between the physical and digital worlds. My journey in technology, with a concentration in the Internet of Things, has equipped me with the skills to turn everyday objects into smart, connected systems that solve real-world problems.
+        </p>
+        <p>
+          As an Embedded Systems Engineer, I enjoy working at the hardware level to build robust and efficient solutions. However, I believe that even the most advanced technology is only as good as its user interface. That's why I am also a UI/UX Enthusiast, dedicated to designing intuitive dashboards and applications that make complex IoT systems accessible and easy to use for everyone.
+        </p>
+        <p>
+          When I'm not developing code or soldering components, you'll find me exploring the latest microcontrollers, sketching out new system architectures, or simply imagining how connected technology can create a more efficient and sustainable future.
+        </p>
+          </div>
+
+          <div class="education-timeline">
+  <h3 class="subsection-heading">Education</h3>
+
+  <div class="timeline-item">
+    <div class="timeline-icon">
+      <i class="fas fa-graduation-cap"></i>
+    </div>
+    <div class="timeline-content">
+      <span class="timeline-date">2023 - Present </span>
+      <h4>Bachelor of Science in Information Technology</h4>
+      <h5>President University</h5>
+      <p>
+A comprehensive study in Information Technology with a special concentration in the Internet of Things (IoT). This involved applying core IT concepts like Data Structures & Algorithms and System Architecture to develop end-to-end IoT solutions—from programming embedded systems and ensuring secure cloud integration, to designing user-centric applications.      </p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-icon">
+    <i class="fas fa-school"></i>
+  </div>
+  <div class="timeline-content">
+    <span class="timeline-date">2020 - 2023</span>
+    <h4>Vocational High School Diploma</h4>
+    <h5>SMK Armaniyah Bekasi</h5>
+      <p>
+      Major in Computer and Network Engineering (TKJ), focused on network infrastructure, server administration, and computer hardware assembly.
+      </p>
+    </div>
+  </div>
+  
+</div>
+        </div>
+      </div>
+    </section>
+
+<section id="skills" class="section">
+  <div class="section-container">
+    <h2 class="section-heading">My Skills</h2>
+
+    <div class="skills-nav">
+      <button class="skills-nav-button active" data-slide="0">Front-End Technologies</button>
+      <button class="skills-nav-button" data-slide="1">Back-End & Tools</button>
+    </div>
+
+    <div class="skills-slider-container">
+      <div class="skills-slider">
+
+        <div class="skills-slide">
+          <div class="skills-grid">
+            
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-html5-plain-wordmark colored"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>HTML5</h4>
+                  <p>The standard markup language for creating structured web pages.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-css3-plain-wordmark colored"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>CSS3</h4>
+                  <p>A style sheet language for describing the presentation of a document.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>JavaScript</h4>
+                  <p>A programming language that enables interactive web pages.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="skills-slide">
+          <div class="skills-grid">
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-python-plain colored"></i>
+                  <span>Python</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>Python</h4>
+                  <p>A high-level language for general-purpose programming.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                  <span>MySQL</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>MySQL</h4>
+                  <p>A relational database management system based on SQL.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-php-plain colored"></i>
+                  <span>PHP</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>PHP</h4>
+                  <p>A popular general-purpose scripting language especially suited to web development.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-git-plain colored"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>Git</h4>
+                  <p>A version control system for tracking changes in source code.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-docker-plain colored"></i>
+                  <span>Docker</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>Docker</h4>
+                  <p>A platform for developing and running applications in containers.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-arduino-plain colored"></i>
+                  <span>Arduino IDE</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>Arduino IDE</h4>
+                  <p>An open-source electronics platform for building digital devices.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="skill-card">
+              <div class="skill-card-inner">
+                <div class="skill-card-front">
+                  <i class="devicon-blender-original colored"></i>
+                  <span>Blender</span>
+                </div>
+                <div class="skill-card-back">
+                  <h4>Blender</h4>
+                  <p>A free and open-source 3D computer graphics software toolset.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="projects" class="section">
+      <div class="section-container">
+        <h2 class="section-heading">Featured Projects</h2>
+        <div class="projects-grid">
+
+ <div class="project-card" 
+    data-title="Autonomous Robotic Car"
+    data-image="images/Gambar WhatsApp 2025-04-14 pukul 18.46.53_2a6d0855.jpg"
+    data-tags="Arduino,C++,Sensor Integration,Motor Control"
+    data-overview="A prototype of an autonomous robotic car built on the Arduino platform. Its key feature is the ability to actively scan its surroundings using a servo-mounted ultrasonic sensor, allowing for more dynamic and intelligent obstacle avoidance."
+    data-features="Active obstacle scanning via a servo-mounted sensor,Flame detection and automated response system,Precise movement control with DC motors,Core navigation logic programmed in C++"
+>
+    <img src="images/Gambar WhatsApp 2025-04-14 pukul 18.46.53_2a6d0855.jpg" alt="Autonomous Robotic Car" class="project-image">
+    <div class="project-info">
+        <h3>Autonomous Robotic Car</h3>
+        <p>A microcontroller-based car capable of autonomous navigation and hazard detection.</p>
+        <div class="project-tags">
+            <span class="project-tag">Arduino</span>
+            <span class="project-tag">C++</span>
+            <span class="project-tag">Sensor Integration</span>
+            <span class="project-tag">Motor Control</span>
+        </div>
+        <div class="project-links">
+          <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+          <a href="https://github.com/BagusEb/Autonomous-Robotics-Car" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+          <a href="documents/Robotics Final Project Report - SUBROTO.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Document</a>
+        </div>
+    </div>
+</div>
+
+<div class="project-card" 
+    data-title="Robotics Arms"
+    data-image="images/Gambar WhatsApp 2025-07-17 pukul 20.11.33_825d1fdd.jpg"
+    data-tags="Arduino,C++,Servo Motors,Web Control"
+    data-overview="A programmable 4-axis robotic arm designed for precise object manipulation. This project demonstrates skills in kinematics and servo motor control, featuring intuitive, real-time control via a joystick module."
+    data-features="Multi-axis movement (4-DOF),Intuitive real-time control using a joystick module,Claw gripper for object manipulation,Programmed with C++ on the Arduino platform."
+>
+    <img src="images/Gambar WhatsApp 2025-07-17 pukul 15.07.24_a561b1b1.jpg" alt="Robotics Arms" class="project-image">
+    
+    <div class="project-info">
+        <h3>Robotics Arms</h3>
+        <p>A programmable robotic arm capable of precise movements and object manipulation.</p>
+        <div class="project-tags">
+            <span class="project-tag">Arduino</span>
+            <span class="project-tag">C++</span>
+            <span class="project-tag">Servo Motors</span>
+        </div>
+        <div class="project-links">
+            <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+            <a href="https://github.com/BagusEb/Robotics-Arms" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+        </div>
+    </div>
+</div>
+
+<div class="project-card" 
+  data-title="Autonomous Monitoring Control System – Electromagnetic Field"
+  data-image="images/Gambar WhatsApp 2025-05-15 pukul 11.05.07_58957372.jpg"  
+  data-tags="ESP32,Walksnail WS-M181,IoT,MQTT,3D-Printed Case,Data Acquisition"
+  data-overview="This project is a compact IoT-based monitoring system developed during a bootcamp with BRIN (Badan Riset dan Inovasi Nasional). It integrates GNSS positioning using the Walksnail WS-M181 GPS module and environmental data acquisition using an ESP32 microcontroller, parsing NMEA data in real-time, structuring it into JSON, and transmitting it to BRIN’s MQTT server at 15-second intervals for research and monitoring purposes."
+  data-features="Real-time GNSS data parsing with Walksnail WS-M181,Environmental data collection using DHT11,JSON data structuring,Stable MQTT data transmission,Custom 3D-printed enclosure,Field-tested under various environmental conditions"
+>
+  <img src="images/Gambar WhatsApp 2025-04-15 pukul 10.16.42_56944f02.jpg" alt="Autonomous Monitoring Control System – Electromagnetic Field" class="project-image">
+  <div class="project-info">
+      <h3>Autonomous Monitoring Control System for Electromagnetic Field (AMCS EMFM) – BRIN</h3>
+      <p>Compact IoT system with Walksnail GNSS, environmental sensors, and MQTT for BRIN (Badan Riset dan Inovasi Nasional).</p>
+      <div class="project-tags">
+          <span class="project-tag">ESP32</span>
+          <span class="project-tag">Walksnail WS-M181</span>
+          <span class="project-tag">MQTT</span>
+          <span class="project-tag">IoT</span>
+          <span class="project-tag">3D-Printed</span>
+      </div>
+      <div class="project-links">
+          <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+          <a href="https://github.com/BagusEb/GNSS5-PROJECT/tree/main" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+      </div>
+  </div>
+</div>
+
+<div class="project-card" 
+  data-title="Smart Automatic Door System with Sensors"
+  data-image="images/Screenshot 2025-07-21 105730.png"  
+  data-tags="Arduino,Servo,Ultrasonic Sensor,LDR,DHT11,IoT,Wokwi Simulation"
+  data-overview="This project is a smart automatic door system using Arduino and various sensors, developed for learning IoT and sensor integration. It integrates an ultrasonic sensor for object detection, a DHT11 sensor for temperature monitoring, and an LDR for light detection, controlling a servo motor to open or close the door automatically based on real-time sensor data."
+  data-features="Object detection with HC-SR04 Ultrasonic Sensor,Automatic door control with Servo,Temperature monitoring using DHT11,Light intensity detection with LDR,Integrated LED and Buzzer for status indication,Real-time monitoring via Serial Plotter,Wokwi simulation ready"
+>
+  <img src="images/Screenshot 2025-07-21 101334.png" alt="Smart Automatic Door System with Sensors" class="project-image">
+  <div class="project-info">
+      <h3>Smart Automatic Door System with Sensors</h3>
+      <p>Automatic door system using ultrasonic, DHT11, and LDR sensors integrated with a servo for real-time control and monitoring.</p>
+      <div class="project-tags">
+          <span class="project-tag">Arduino</span>
+          <span class="project-tag">Servo</span>
+          <span class="project-tag">Ultrasonic</span>
+          <span class="project-tag">DHT11</span>
+          <span class="project-tag">LDR</span>
+          <span class="project-tag">IoT</span>
+      </div>
+      <div class="project-links">
+          <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+          <a href="https://wokwi.com/projects/421977446849363969" target="_blank">
+              <i class="fas fa-microchip"></i> Wokwi Simulation
+          </a>      
+      </div>
+  </div>
+</div>
+
+
+
+<div class="project-card" 
+  data-title="Currency Converter (Dockerized)"
+  data-image="images/Screenshot 2025-07-20 175836.png"
+  data-tags="Flask,Docker,REST API"
+  data-overview="A real-time Currency Converter web application with a Dockerized full-stack architecture. The app allows users to convert currencies dynamically while demonstrating environment consistency across platforms using Docker."
+  data-features="Real-time exchange rate conversion,Containerized frontend and backend with Docker,Docker Compose orchestration,Simple one-command deployment,Includes gamification and financial info page"
+>
+  <img src="images/Screenshot 2025-07-20 174833.png" alt="Currency Converter Dashboard" class="project-image">
+  <div class="project-info">
+      <h3>Currency Converter (Dockerized)</h3>
+      <p>A Dockerized web application to convert currencies in real-time while demonstrating environment consistency across platforms.</p>
+      <div class="project-tags">
+          <span class="project-tag">Flask</span>
+          <span class="project-tag">Docker</span>
+          <span class="project-tag">REST API</span>
+      </div>
+      <div class="project-links">
+          <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+          <a href="https://github.com/BagusEb/Currency-Converter" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+          <a href="documents/Bagus_Eka_Bagaskara_REPORT_MIDEXAM.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Document</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-card" 
+    data-title="Urban Night City (3D Animation)"
+    data-image="images/Screenshot 2025-07-21 004255.png"
+    data-tags="Blender,3D Modeling,Animation"
+    data-overview="A low-poly 3D animation project set in a rainy urban city at night, featuring the characters Tuti and Agus exploring neon-lit streets. This project focuses on environmental design, rain particle simulation, dynamic lighting, and character rigging and animation using Blender."
+    data-features="Low-poly 3D modeling,Rain and splash particle effects,Character rigging and animation,Dynamic lighting with flicker effects,Urban environment design"
+    >
+    <img src="images/Screenshot 2025-07-21 005335.png" alt="Urban Night City 3D Animation" class="project-image">
+    <div class="project-info">
+      <h3>Urban Night City (3D Animation)</h3>
+      <p>A low-poly 3D animation project featuring Tuti and Agus exploring a rainy neon city at night.</p>
+      <div class="project-tags">
+        <span class="project-tag">Blender</span>
+        <span class="project-tag">3D Modeling</span>
+        <span class="project-tag">Animation</span>
+      </div>
+      <div class="project-links">
+        <button class="view-details-btn"><i class="fas fa-info-circle"></i> View Details</button>
+          <a href="documents/Project  Report 3D - Urban Night City.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Document</a>
+          <a href="https://youtu.be/hS2qTO5oIGY" target="_blank"><i class="fab fa-youtube"></i> Video</a> 
+      </div>
+  </div>
+</div>
+
+
+ 
+    </section>
+
+ <section id="contact" class="section">
+  <div class="section-container">
+    <h2 class="section-heading">Let's Connect</h2>
+    <div class="contact-content">
+      <p>
+        I'm always excited to connect! Whether you have a project in mind or just want to say hello, feel free to send me a message below.
+      </p>
+      
+  <form id="contact-form">
+  <div class="form-group">
+    <input type="text" id="name" name="from_name" required placeholder=" ">
+    <label for="name">Your Name</label>
+  </div>
+  <div class="form-group">
+    <input type="email" id="email" name="from_email" required placeholder=" ">
+    <label for="email">Your Email</label>
+  </div>
+  <div class="form-group">
+    <textarea id="message" name="message" rows="6" required placeholder=" "></textarea>
+    <label for="message">Your Message</label>
+  </div>
+  <button type="submit" class="cta-button form-submit-btn">Send Message</button>
+</form>
+      </div>
+  </div>
+</section>
+  </main>
+
+  <button class="scroll-top" id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <div id="projectModal" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close-btn">&times;</button>
+    <img id="modalImage" src="" alt="Project Image" class="modal-project-image">
+    <h2 id="modalTitle"></h2>
+    <div id="modalTags" class="project-tags"></div>
+    <h3>Project Overview</h3>
+    <p id="modalOverview"></p>
+    <h3>Features</h3>
+    <ul id="modalFeatures"></ul>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+    
+  
+</body>
+</html>
